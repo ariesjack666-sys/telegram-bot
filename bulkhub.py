@@ -17,7 +17,7 @@ import os
 # =========================
 # TOKEN
 # =========================
-TOKEN = "YOUR_NEW_BOT_TOKEN"
+TOKEN = os.getenv("YOUR_NEW_BOT_TOKEN")
 
 
 # =========================
